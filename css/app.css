@@ -6024,3 +6024,84 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; }
  }
+
+@font-face {
+  font-family: 'solido condensed book';
+  src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-Book.eot);
+  src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-Book.eot?#iefix) format("embedded-opentype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-Book.woff) format("woff"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-Book.ttf) format("truetype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-Book.svg#SolidoCondensedBook) format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'solido condensed bold';
+  src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-Bold.eot);
+  src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-Bold.eot?#iefix) format("embedded-opentype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-Bold.woff) format("woff"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-Bold.ttf) format("truetype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-Bold.svg#SolidoCondensedBold) format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'solido condensed bold italic';
+  src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-BoldItalic.eot);
+  src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-BoldItalic.eot?#iefix) format("embedded-opentype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-BoldItalic.woff) format("woff"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-BoldItalic.ttf) format("truetype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-BoldItalic.svg#SolidoCondensedBoldItalic) format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'proxima nova light';
+  src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-Light.eot);
+  src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-Light.eot?#iefix) format("embedded-opentype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-Light.woff) format("woff"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-Light.ttf) format("truetype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-Light.svg#ProximaNovaLight) format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'proxima nova light italic';
+  src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-LightItalic.eot);
+  src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-LightItalic.eot?#iefix) format("embedded-opentype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-LightItalic.woff) format("woff"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-LightItalic.ttf) format("truetype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-LightItalic.svg#ProximaNovaLightItalic) format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'proxima nova bold';
+  src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-Bold.eot);
+  src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-Bold.eot?#iefix) format("embedded-opentype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-Bold.woff) format("woff"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-Bold.ttf) format("truetype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-Bold.svg#ProximaNovaBold) format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+body {
+  background: #f2f0eb;
+  font-family: 'proxima nova light', 'Helvetica Neue', arial, sans-serif;
+  font-size: 1em; }
+
+header {
+  background-color: #3fa9f5; }
+
+header h1 {
+  margin: 0 0 0.2em 0; }
+
+.video {
+  padding: 0; }
+
+.flex-video {
+  margin-top: 0px; }
+  .flex-video.vimeo {
+    padding-bottom: 56.34%; }
+
+.cta-btn {
+  background: #3fa9f5; }
+  .cta-btn:hover {
+    background: #15578c; }
+
+@media only screen {
+  .text-description p {
+    font-size: 1em; }
+ }
+
+@media only screen and (min-width:40.063em) {
+  .text-description p {
+    font-size: 1.1em; }
+ }
+
+@media only screen and (min-width:64.063em) {
+  .text-description p {
+    font-size: 1.2em; }
+ }

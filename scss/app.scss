@@ -2,39 +2,115 @@
 @import "foundation";
 
 // Or selectively include components
-// @import
-//   "foundation/components/accordion",
-//   "foundation/components/alert-boxes",
-//   "foundation/components/block-grid",
-//   "foundation/components/breadcrumbs",
-//   "foundation/components/button-groups",
-//   "foundation/components/buttons",
-//   "foundation/components/clearing",
-//   "foundation/components/dropdown",
-//   "foundation/components/dropdown-buttons",
-//   "foundation/components/flex-video",
-//   "foundation/components/forms",
-//   "foundation/components/grid",
-//   "foundation/components/inline-lists",
-//   "foundation/components/joyride",
-//   "foundation/components/keystrokes",
-//   "foundation/components/labels",
-//   "foundation/components/magellan",
-//   "foundation/components/orbit",
-//   "foundation/components/pagination",
-//   "foundation/components/panels",
-//   "foundation/components/pricing-tables",
-//   "foundation/components/progress-bars",
-//   "foundation/components/reveal",
-//   "foundation/components/side-nav",
-//   "foundation/components/split-buttons",
-//   "foundation/components/sub-nav",
-//   "foundation/components/switches",
-//   "foundation/components/tables",
-//   "foundation/components/tabs",
-//   "foundation/components/thumbs",
-//   "foundation/components/tooltips",
-//   "foundation/components/top-bar",
-//   "foundation/components/type",
-//   "foundation/components/offcanvas",
-//   "foundation/components/visibility";
+ @import
+"foundation/components/button-groups",
+"foundation/components/buttons",
+"foundation/components/grid",
+"foundation/components/pricing-tables",
+"foundation/components/global",
+"foundation/components/flex-video";
+
+@font-face {
+    font-family: 'solido condensed book';
+    src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-Book.eot);
+    src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-Book.eot?#iefix) format("embedded-opentype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-Book.woff) format("woff"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-Book.ttf) format("truetype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-Book.svg#SolidoCondensedBook) format("svg");
+    font-style: normal;
+    font-weight: normal
+}
+
+@font-face {
+    font-family: 'solido condensed bold';
+    src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-Bold.eot);
+    src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-Bold.eot?#iefix) format("embedded-opentype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-Bold.woff) format("woff"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-Bold.ttf) format("truetype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-Bold.svg#SolidoCondensedBold) format("svg");
+    font-style: normal;
+    font-weight: normal
+}
+
+@font-face {
+    font-family: 'solido condensed bold italic';
+    src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-BoldItalic.eot);
+    src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-BoldItalic.eot?#iefix) format("embedded-opentype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-BoldItalic.woff) format("woff"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-BoldItalic.ttf) format("truetype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/SolidoCondensed-BoldItalic.svg#SolidoCondensedBoldItalic) format("svg");
+    font-style: normal;
+    font-weight: normal
+}
+
+@font-face {
+    font-family: 'proxima nova light';
+    src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-Light.eot);
+    src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-Light.eot?#iefix) format("embedded-opentype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-Light.woff) format("woff"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-Light.ttf) format("truetype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-Light.svg#ProximaNovaLight) format("svg");
+    font-style: normal;
+    font-weight: normal
+}
+
+@font-face {
+    font-family: 'proxima nova light italic';
+    src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-LightItalic.eot);
+    src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-LightItalic.eot?#iefix) format("embedded-opentype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-LightItalic.woff) format("woff"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-LightItalic.ttf) format("truetype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-LightItalic.svg#ProximaNovaLightItalic) format("svg");
+    font-style: normal;
+    font-weight: normal
+}
+
+@font-face {
+    font-family: 'proxima nova bold';
+    src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-Bold.eot);
+    src: url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-Bold.eot?#iefix) format("embedded-opentype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-Bold.woff) format("woff"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-Bold.ttf) format("truetype"), url(http://maxer.dk/sites/all/themes/dave/dist/fonts/ProximaNova-Bold.svg#ProximaNovaBold) format("svg");
+    font-style: normal;
+    font-weight: normal
+}
+
+
+$light-blue : #3fa9f5;
+$dark-blue	: #15578c;
+$off-white	: #f2f0eb;	
+
+body {
+	background: $off-white;
+	font-family: 'proxima nova light', 'Helvetica Neue', arial, sans-serif;
+	font-size: 1em;
+}
+header {
+	background-color: $light-blue;
+}
+header h1 {
+	margin: 0 0 0.2em 0;
+}
+.video {
+	padding: 0;
+}
+.flex-video { 
+	margin-top: 0px; 
+	&.vimeo { 
+		padding-bottom: 56.34%; 
+	} 
+} 
+.cta-btn {
+	background: $light-blue;
+	&:hover {
+		background: $dark-blue;
+	}
+}
+.text-description {
+}
+
+
+
+
+@media #{$small-up} { 
+	.text-description p {
+			font-size: 1.0em;
+	}
+}
+
+@media #{$medium-up} { 
+	.text-description p {
+		font-size: 1.1em;
+	}
+}
+
+@media #{$large-up} { 
+	.text-description p {
+		font-size: 1.2em;
+	}
+}
+
+
