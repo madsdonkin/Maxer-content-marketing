@@ -66,51 +66,137 @@ $off-white	: #f2f0eb;
 body {
 	background: $off-white;
 	font-family: 'proxima nova light', 'Helvetica Neue', arial, sans-serif;
-	font-size: 1em;
+	font-size: 1rem;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'solido condensed bold';
+    text-transform: uppercase;
+}
+.large.button {
+    font-family: 'solido condensed bold';
+    text-transform: uppercase;
+    font-size: 2em !important;
 }
 header {
 	background-color: $light-blue;
+    h1 {
+	   margin: 0 0 0.2em 0;
+    }
+    .phrase {
+        color:$off-white;
+        padding:16px;
+        margin: 0;
+        font-family: 'solido condensed bold italic';
+    }
+
 }
-header h1 {
-	margin: 0 0 0.2em 0;
-}
+
 .video {
 	padding: 0;
 }
+
 .flex-video { 
 	margin-top: 0px; 
-	&.vimeo { 
+	
+    &.vimeo { 
 		padding-bottom: 56.34%; 
 	} 
+
 } 
+
 .cta-btn {
+
 	background: $light-blue;
-	&:hover {
+	
+    &:hover {
 		background: $dark-blue;
 	}
+
 }
+
 .text-description {
+
 }
 
+blockquote .rating {
+    font-size: 1.7rem;
+    letter-spacing: 0.3rem;
+    color:#407853; 
+}
 
+.pricing-table {
+    
+    .title {
+        background: $steel;
+    }
+   
+    .price {
+        font-size: 1.6rem;
+    }
+    .description {
+        font-size: 0.8rem;
+    }
+}
 
+.pricing-table.recomended {
+   
+    .title {
+        font-size: 1.4rem;
+        background: $oil;
+    }
+
+    .price {
+        font-size: 2rem;
+    }
+    .description {
+        font-size: 1rem;
+    }
+    .cta-btn {
+        font-size: 1.6rem;
+    }
+}
+
+.band {
+    height: 100px;
+    width: 100px;
+    background: url('../img/band.png') no-repeat top right;
+    position: absolute;
+    top:0;
+    right:0.85rem;
+    z-index:2;
+}
+
+/*------------------------------
+        MEDIA QUERIES
+------------------------------*/
 
 @media #{$small-up} { 
 	.text-description p {
-			font-size: 1.0em;
+			font-size: 1.0rem;
 	}
 }
 
 @media #{$medium-up} { 
 	.text-description p {
-		font-size: 1.1em;
+		font-size: 1.1rem;
 	}
+}
+@media #{$medium-only} { 
+    blockquote .rating {
+        font-size: 1.5rem;
+    }
 }
 
 @media #{$large-up} { 
 	.text-description p {
-		font-size: 1.2em;
+		font-size: 1.2rem;
 	}
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+   .band {
+        background: url('../img/band@2x.png') no-repeat top right;
+        background-size: 100px 100px;
+    }
 }
 
 

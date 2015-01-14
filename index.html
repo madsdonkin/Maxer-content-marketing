@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maxer.dk</title>
     <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/fonts/foundation-icons.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
@@ -39,10 +40,14 @@ window._fbq.push(['track', 'PixelInitialized', {}]);
 <!-- Google Analytics End -->
 
     <header class="row header">
-      <div class="large-12 small-4 columns logo">
+      <div class="medium-4 small-12 small-text-center medium-text-left columns logo">
         <h1><img src="img/logo.png" alt=""></h1>
       </div>
+      <div class="medium-8 show-for-medium-up columns logo">
+      <h3 class="phrase right">No brain, No gain...</h3>
+      </div>
     </header>
+
 
     <div class="row">
     
@@ -54,19 +59,35 @@ window._fbq.push(['track', 'PixelInitialized', {}]);
 
     <div class="row">
       <div class="large-12 columns text-center">
-        <a href="#buy-now" class="large radius button cta-btn">Køb nu!</a><br/>
-      </div>
-      <div class="large-12">
-        <hr/>
+        <a href="#buy-now" class="large radius button cta-btn">Køb kurset nu!</a><br/>
       </div>
     </div>
     <div class="row">
-      <div class="large-12 columns text-description">
+      <div class="large-8 medium-8 columns text-description">
+        <h1>Kattefar underviser i løft</h1>
         <p>For mange udgør squat, bænkpræs og dødløft en stor del af træningen. Derfor er teknikken vigtig. Med god teknik løfter du nemlig flere kg og minimerer samtidig skadesrisikoen.</p>
         <p>Siden jeg startede maxer.dk i 2010, har jeg haft mere end 700 stærke kunder på enten workshops eller til personlig træning og den største begrænsning for at sprede budskabet endnu mere er min tid.</p>
         <p>Derfor har jeg lavet dette videokursus, hvor du kan få undervisning i squat, bænkpres og dødløft – enten i én af øvelserne eller alle tre.
         Videoerne er for dig, der gerne selv vil have bedre teknik eller vil være endnu skarpere, når du hjælper din klienter. Der er 12 deltagere på live-kurset, som alle viser deres teknik i øvelserne og jeg giver råd til hvad de kan arbejde med teknisk for at nå deres mål. </p>
         <p>Jeg fortæller om de vigtigste tekniske fokuspunkter og de typiske fejl – og ikke mindst hvordan du kan rette dem. Alt dette kan du se igen og igen, når du vil og hvor du vil.</p>
+      </div>
+       <div class="large-4 medium-4 show-for-medium-up columns">
+       <h4>Kunderne siger:</h4>
+        <blockquote>
+        <span class="rating"><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i></span><br/>
+        "En fed og lærerig oplevelse - uden tvivl anbefalelsesværdigt for træningsnørder der gerne vil være endnu skarpere på teknikken"<br/>
+        <cite><a href="https://www.trustpilot.dk/review/maxer.dk/52e0ff460000640002727764" target="_blank">Celestine Maria Jensen, Trustpilot</a></cite>
+        </blockquote>
+        <blockquote>
+        <span class="rating"><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i></span><br/>
+        "En Workshop ud over det sædvanlige..."<br/>
+        <cite><a href="https://www.trustpilot.dk/review/maxer.dk/52e8bfc1000064000273b28e" target="_blank">Henrik Rasmussen, Trustpilot</a></cite>
+        </blockquote>
+        <blockquote>
+        <span class="rating"><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i></span><br/>
+        "Jacob er en meget kompetænt træner og der er på stående fod ikke noget dansk tilbud, der kan måle sig med Jacobs undervisning i de 3 styrkeløft øvelser"<br/>
+        <cite><a href="https://www.trustpilot.dk/review/maxer.dk/52dd0e7b000064000271ae2c" target="_blank">Peder Nordstrand Hindborg, Trustpilot</a></cite>
+        </blockquote>
       </div>
     </div>
     <div class="row" id="buy-now">
@@ -75,39 +96,60 @@ window._fbq.push(['track', 'PixelInitialized', {}]);
           <li class="title">Ét Produkt</li>
           <li class="price">349 kr.</li>
           <li class="description">En Video</li>
-          <li class="bullet-item">1 Database</li>
-          <li class="bullet-item">5GB Storage</li>
-          <li class="bullet-item">20 Users</li>
           <li class="cta-button"><a class="button cta-btn radius" href="http://shop.maxer.dk/cart/add" onclick="var f = document.createElement('form'); f.style.display = 'none'; this.parentNode.appendChild(f); f.method = 'POST'; f.action = this.href; var v = document.createElement('input'); v.setAttribute('type', 'hidden'); v.setAttribute('name', 'id'); v.setAttribute('value', '859367245'); f.appendChild(v); var r = document.createElement('input'); r.setAttribute('type', 'hidden'); r.setAttribute('name', 'return_to'); r.setAttribute('value', 'http://your.shopify.url/checkout'); f.appendChild(r); f.submit(); return false;">Køb nu</a></li>
         </ul>
       </div>
       <div class="large-4 medium-4 columns">
-        <ul class="pricing-table">
+        <ul class="pricing-table recomended">
           <li class="title">Alle tre</li>
           <li class="price">579 kr.</li>
           <li class="description">Alle tre videoer</li>
-          <li class="bullet-item">1 Database</li>
-          <li class="bullet-item">5GB Storage</li>
-          <li class="bullet-item"><b>BONUS</b></li>
           <li class="cta-button"><a class="button cta-btn radius" href="http://shop.maxer.dk/cart/add" onclick="var f = document.createElement('form'); f.style.display = 'none'; this.parentNode.appendChild(f); f.method = 'POST'; f.action = this.href; var v = document.createElement('input'); v.setAttribute('type', 'hidden'); v.setAttribute('name', 'id'); v.setAttribute('value', '1030240925'); f.appendChild(v); var r = document.createElement('input'); r.setAttribute('type', 'hidden'); r.setAttribute('name', 'return_to'); r.setAttribute('value', 'http://your.shopify.url/checkout'); f.appendChild(r); f.submit(); return false;">Køb nu</a></li>
         </ul>
+        <div class="band">&nbsp;</div>
       </div>
       <div class="large-4 medium-4 columns">
         <ul class="pricing-table">
           <li class="title">Alle tre + 30 min. Skype</li>
-          <li class="price">1049</li>
+          <li class="price">1049 kr.</li>
           <li class="description">Alle tre videoer, 30 minutters skype session</li>
-          <li class="bullet-item">1 Database</li>
+          <!--<li class="bullet-item">1 Database</li>
           <li class="bullet-item">5GB Storage</li>
-          <li class="bullet-item"><b>BOUNS</b></li>
+          <li class="bullet-item"><b>BOUNS</b></li>-->
           <li class="cta-button"><a class="button cta-btn radius" href="http://shop.maxer.dk/cart/add" onclick="var f = document.createElement('form'); f.style.display = 'none'; this.parentNode.appendChild(f); f.method = 'POST'; f.action = this.href; var v = document.createElement('input'); v.setAttribute('type', 'hidden'); v.setAttribute('name', 'id'); v.setAttribute('value', '944304545'); f.appendChild(v); var r = document.createElement('input'); r.setAttribute('type', 'hidden'); r.setAttribute('name', 'return_to'); r.setAttribute('value', 'http://your.shopify.url/checkout'); f.appendChild(r); f.submit(); return false;">Køb nu</a></li>
         </ul>
       </div>
-        
+    </div>
+    <div class="row show-for-small-only">
+      <div class="large-4 medium-4 columns">
+       <h4>Kunderne siger:</h4>
+        <blockquote>
+        <span class="rating"><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i></span><br/>
+        "En fed og lærerig oplevelse - uden tvivl anbefalelsesværdigt for træningsnørder der gerne vil være endnu skarpere på teknikken"<br/>
+        <cite><a href="https://www.trustpilot.dk/review/maxer.dk/52e0ff460000640002727764" target="_blank">Celestine Maria Jensen, Trustpilot</a></cite>
+        </blockquote>
+        <blockquote>
+        <span class="rating"><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i></span><br/>
+        "En Workshop ud over det sædvanlige..."<br/>
+        <cite><a href="https://www.trustpilot.dk/review/maxer.dk/52e8bfc1000064000273b28e" target="_blank">Henrik Rasmussen, Trustpilot</a></cite>
+        </blockquote>
+        <blockquote>
+        <span class="rating"><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i></span><br/>
+        "Jacob er en meget kompetænt træner og der er på stående fod ikke noget dansk tilbud, der kan måle sig med Jacobs undervisning i de 3 styrkeløft øvelser"<br/>
+        <cite><a href="https://www.trustpilot.dk/review/maxer.dk/52dd0e7b000064000271ae2c" target="_blank">Peder Nordstrand Hindborg, Trustpilot</a></cite>
+        </blockquote>
       </div>
-        
+      <div class="large-12 columns text-center">
+        <a href="#buy-now" class="large radius button cta-btn">Køb kurset nu!</a><br/>
       </div>
     </div>
+
+
+        
+     
+        
+     
+    
 
 
 
