@@ -96,7 +96,7 @@ window._fbq.push(['track', 'PixelInitialized', {}]);
           <li class="title">Ét Produkt</li>
           <li class="price">349 kr.</li>
           <li class="description">En Video</li>
-          <li class="cta-button"><a class="button cta-btn radius" href="http://shop.maxer.dk/cart/add" onclick="var f = document.createElement('form'); f.style.display = 'none'; this.parentNode.appendChild(f); f.method = 'POST'; f.action = this.href; var v = document.createElement('input'); v.setAttribute('type', 'hidden'); v.setAttribute('name', 'id'); v.setAttribute('value', '859367245'); f.appendChild(v); var r = document.createElement('input'); r.setAttribute('type', 'hidden'); r.setAttribute('name', 'return_to'); r.setAttribute('value', 'http://your.shopify.url/checkout'); f.appendChild(r); f.submit(); return false;">Køb nu</a></li>
+          <li class="cta-button"><a class="button cta-btn radius" href="#" data-reveal-id="myModal" data-reveal>Køb nu</a></li>
         </ul>
       </div>
       <div class="large-4 medium-4 columns">
@@ -149,7 +149,15 @@ window._fbq.push(['track', 'PixelInitialized', {}]);
      
         
      
-    
+     <div id="myModal" class="reveal-modal small" data-reveal>
+        <h3>Vælg hvilket produkt du ønsker:</h3>
+        <ul class="button-group stack radius">
+          <li><a class="button" href="http://shop.maxer.dk/cart/add" onclick="var f = document.createElement('form'); f.style.display = 'none'; this.parentNode.appendChild(f); f.method = 'POST'; f.action = this.href; var v = document.createElement('input'); v.setAttribute('type', 'hidden'); v.setAttribute('name', 'id'); v.setAttribute('value', '1030240925'); f.appendChild(v); var r = document.createElement('input'); r.setAttribute('type', 'hidden'); r.setAttribute('name', 'return_to'); r.setAttribute('value', 'http://your.shopify.url/checkout'); f.appendChild(r); f.submit(); return false;">Squat</a></li>
+          <li><a class="button" href="http://shop.maxer.dk/cart/add" onclick="var f = document.createElement('form'); f.style.display = 'none'; this.parentNode.appendChild(f); f.method = 'POST'; f.action = this.href; var v = document.createElement('input'); v.setAttribute('type', 'hidden'); v.setAttribute('name', 'id'); v.setAttribute('value', '1030240925'); f.appendChild(v); var r = document.createElement('input'); r.setAttribute('type', 'hidden'); r.setAttribute('name', 'return_to'); r.setAttribute('value', 'http://your.shopify.url/checkout'); f.appendChild(r); f.submit(); return false;">Bænkpres</a></li>
+          <li><a class="button" href="http://shop.maxer.dk/cart/add" onclick="var f = document.createElement('form'); f.style.display = 'none'; this.parentNode.appendChild(f); f.method = 'POST'; f.action = this.href; var v = document.createElement('input'); v.setAttribute('type', 'hidden'); v.setAttribute('name', 'id'); v.setAttribute('value', '1030240925'); f.appendChild(v); var r = document.createElement('input'); r.setAttribute('type', 'hidden'); r.setAttribute('name', 'return_to'); r.setAttribute('value', 'http://your.shopify.url/checkout'); f.appendChild(r); f.submit(); return false;">Dødløft</a></li>
+        </ul>
+        <a class="close-reveal-modal">&#215;</a>
+      </div>
 
 
 

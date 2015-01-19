@@ -8,6 +8,7 @@
 "foundation/components/grid",
 "foundation/components/pricing-tables",
 "foundation/components/global",
+"foundation/components/reveal",
 "foundation/components/flex-video"; 
 
 @font-face {
@@ -104,7 +105,7 @@ header {
 
 } 
 
-.cta-btn {
+.cta-btn, .button-group .button {
 
 	background: $light-blue;
 	
@@ -164,6 +165,10 @@ blockquote .rating {
     top:0;
     right:0.85rem;
     z-index:2;
+}
+
+.reveal-modal-bg {
+    position: fixed;
 }
 
 /*------------------------------
