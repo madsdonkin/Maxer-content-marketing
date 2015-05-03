@@ -1,8 +1,13 @@
+/*
+
+Code by Mads Donkin
+
+*/
 @import "settings";
 @import "foundation";
 
 // Or selectively include components
- @import
+@import
 "foundation/components/button-groups",
 "foundation/components/buttons",
 "foundation/components/grid",
@@ -70,8 +75,12 @@ body {
 	font-size: 1rem;
 }
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'solido condensed bold';
+    font-family: 'solido condensed bold','Helvetica Neue', arial, sans-serif;;
     text-transform: uppercase;
+}
+b {
+    font-family: 'proxima nova bold', 'Helvetica Neue', arial, sans-serif;
+    font-weight: normal;
 }
 .large.button {
     font-family: 'solido condensed bold';
@@ -81,13 +90,13 @@ h1,h2,h3,h4,h5,h6 {
 header {
 	background-color: $light-blue;
     h1 {
-	   margin: 0 0 0.2em 0;
+        margin: 0 0 0.2em 0;
     }
     .phrase {
         color:$off-white;
         padding:16px;
         margin: 0;
-        font-family: 'solido condensed bold italic';
+        font-family: 'solido condensed book';
     }
 
 }
@@ -99,9 +108,12 @@ header {
 .flex-video { 
 	margin-top: 0px; 
 	
-    &.vimeo { 
-		padding-bottom: 56.34%; 
-	} 
+    &.youtube { 
+      padding-bottom: 56.34%; 
+  } 
+  &.half-video {
+    padding-bottom: 28.17%;
+  }
 
 } 
 
@@ -110,14 +122,28 @@ header {
 	background: $light-blue;
 	
     &:hover {
-		background: $dark-blue;
-	}
+      background: $dark-blue;
+  }
 
 }
 
 .text-description {
 
+    ul { list-style:none; }
+    li { 
+        margin-bottom:10px; 
+        background: $off-white;
+    font-family: 'proxima nova light', 'Helvetica Neue', arial, sans-serif;
+    font-size: 1rem;
+    }
+    ul li:before {    
+        content: '✔';
+        padding: 0 0.5rem 0 0;
+        color:$light-blue;
+
+    }
 }
+
 
 blockquote .rating {
     font-size: 1.7rem;
@@ -126,11 +152,11 @@ blockquote .rating {
 }
 
 .pricing-table {
-    
+
     .title {
         background: $steel;
     }
-   
+
     .price {
         font-size: 1.6rem;
     }
@@ -140,7 +166,7 @@ blockquote .rating {
 }
 
 .pricing-table.recomended {
-   
+
     .title {
         font-size: 1.4rem;
         background: $oil;
@@ -170,19 +196,22 @@ blockquote .rating {
 .reveal-modal-bg {
     position: fixed;
 }
+.bio-pic {
+    padding:0 0 10px 0;
+}
 
 /*------------------------------
         MEDIA QUERIES
 ------------------------------*/
 
 @media #{$small-up} { 
-	.text-description p {
-			font-size: 1.0rem;
-	}
+	.text-description p, .text-description  li {
+       font-size: 1.0rem;
+   }
 }
 
 @media #{$medium-up} { 
-	.text-description p {
+    .text-description p, .text-description  li {
 		font-size: 1.1rem;
 	}
 }
@@ -193,15 +222,15 @@ blockquote .rating {
 }
 
 @media #{$large-up} { 
-	.text-description p {
+    .text-description p, .text-description  li {
 		font-size: 1.2rem;
 	}
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
    .band {
-        background: url('../img/band@2x.png') no-repeat top right;
-        background-size: 100px 100px;
-    }
+    background: url('../img/band@2x.png') no-repeat top right;
+    background-size: 100px 100px;
+}
 }
 
 

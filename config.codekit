@@ -3705,6 +3705,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/jacob-beermann.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133998,
+		"inputAbbreviatedPath": "\/img\/jacob-beermann.jpg",
+		"outputAbbreviatedPath": "\/img\/jacob-beermann.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/jacob-beermann@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133998,
+		"inputAbbreviatedPath": "\/img\/jacob-beermann@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/jacob-beermann@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3726,6 +3748,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/underskrift.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12227,
+		"inputAbbreviatedPath": "\/img\/underskrift.png",
+		"outputAbbreviatedPath": "\/img\/underskrift.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/underskrift@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39312,
+		"inputAbbreviatedPath": "\/img\/underskrift@2x.png",
+		"outputAbbreviatedPath": "\/img\/underskrift@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/index.html": {
 		"fileType": 8192,
